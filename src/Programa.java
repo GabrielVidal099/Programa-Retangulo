@@ -17,11 +17,11 @@ public class Programa {
         System.out.println();
 
         double Area = rectangle.Area();
-        System.out.print("Area = %.2f%n" + Area);
+        System.out.printf("Area = %.2f%n", Area);
 
 
         double perimeter = rectangle.perimeter();
-        System.out.print("PERIMETER = %.2f%n " + perimeter);
+        System.out.printf("PERIMETER = %.2f%n ", perimeter);
 
         double diagonal = rectangle.diagonal();
         System.out.printf("DIAGONAL = %.2f%n", diagonal);
